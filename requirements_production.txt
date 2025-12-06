@@ -1,0 +1,52 @@
+# Production Requirements for URL Indexing Bot
+# Install with: pip install -r requirements_production.txt
+
+# Core Framework
+pyTelegramBotAPI==4.14.0
+
+# Database
+psycopg2-binary==2.9.9
+
+# Google APIs
+google-api-python-client==2.108.0
+google-auth==2.25.2
+google-auth-oauthlib==1.2.0
+google-auth-httplib2==0.2.0
+
+# Web Framework (Admin Panel)
+Flask==3.0.0
+Werkzeug==3.0.1
+
+# HTTP Requests
+requests==2.31.0
+urllib3==2.1.0
+
+# Date/Time
+python-dateutil==2.8.2
+
+# Environment Variables & Configuration
+python-dotenv==1.0.0
+
+# Encryption & Security
+cryptography==41.0.7
+
+# Task Queue (Celery)
+celery==5.3.4
+redis==5.0.1
+
+# Monitoring & Logging
+flower==2.0.1  # Celery monitoring
+sentry-sdk==1.39.1  # Error tracking (optional)
+
+# Performance
+gevent==23.9.1  # For better concurrency
+gunicorn==21.2.0  # Production WSGI server
+
+# Testing (Development)
+pytest==7.4.3
+pytest-cov==4.1.0
+
+# Code Quality (Development)
+black==23.12.1
+flake8==6.1.0
+mypy==1.7.1
