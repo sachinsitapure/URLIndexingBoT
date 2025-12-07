@@ -39,7 +39,7 @@ if not BOT_TOKEN or BOT_TOKEN == "your_bot_token_here":
     exit(1)
 
 #bot = telebot.TeleBot(token=API_TOKEN)
-API_TOKEN='8217579466:AAEq0V9-0TtWqaphRbbBKj8_Suk-MVAy1no'
+API_TOKEN='8217579466:AAEmbHfDH8_Au7uGRpq7PJ9fwRlXDnpy3v0'
 bot = telebot.TeleBot(token=API_TOKEN)
 
 # Initialize components
